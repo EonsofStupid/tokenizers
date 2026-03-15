@@ -2,12 +2,17 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: HuggingFace's Tokenizers
+title: Tokenizers (EonsofStupid fork — DevPULSE / RROFlow.ai)
 message: >-
   Fast State-of-the-Art Tokenizers optimized for Research
-  and Production.
+  and Production. Maintained as a dependency for the DevPULSE
+  platform and RROFlow.ai (Reason Ready Object Flow) engine.
 type: software
 authors:
+  - given-names: Jesse
+    family-names: Hall
+    email: jessay@angrygaming.org
+    alias: Hades/Jessay
   - given-names: Anthony
     family-names: Moi
     email: m.anthony.moi@gmail.com
@@ -15,16 +20,20 @@ authors:
   - given-names: Nicolas
     family-names: Patry
     affiliation: HuggingFace
-repository-code: 'https://github.com/huggingface/tokenizers'
-url: 'https://github.com/huggingface/tokenizers'
-repository: 'https://huggingface.co'
+repository-code: 'https://github.com/EonsofStupid/tokenizers'
+url: 'https://github.com/EonsofStupid/tokenizers'
+repository: 'https://github.com/EonsofStupid/tokenizers'
 abstract: >-
   Fast State-of-the-Art Tokenizers optimized for Research
-  and Production.
+  and Production. This fork is maintained by Jesse Hall (Hades/Jessay)
+  as a core dependency of the DevPULSE platform (devpulse.app) and the
+  RROFlow.ai Reason Ready Object Flow engine.
 keywords:
   - Rust
   - Tokenizer
   - NLP
+  - DevPULSE
+  - RROFlow
 license: Apache-2.0
 commit: 37372b6
 version: 0.13.4

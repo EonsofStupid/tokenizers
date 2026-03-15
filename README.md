@@ -4,14 +4,24 @@
     <br>
 <p>
 <p align="center">
-    <img alt="Build" src="https://github.com/huggingface/tokenizers/workflows/Rust/badge.svg">
-    <a href="https://github.com/huggingface/tokenizers/blob/main/LICENSE">
-        <img alt="GitHub" src="https://img.shields.io/github/license/huggingface/tokenizers.svg?color=blue&cachedrop">
+    <img alt="Build" src="https://github.com/EonsofStupid/tokenizers/workflows/Rust/badge.svg">
+    <a href="https://github.com/EonsofStupid/tokenizers/blob/main/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/EonsofStupid/tokenizers.svg?color=blue&cachedrop">
     </a>
     <a href="https://pepy.tech/project/tokenizers">
         <img src="https://pepy.tech/badge/tokenizers/week" />
     </a>
 </p>
+
+> **Maintainer:** Jesse Hall (Hades / Jessay) — [jessay@angrygaming.org](mailto:jessay@angrygaming.org)
+> | [X @angrygamers](https://x.com/angrygamers)
+> | [LinkedIn](https://www.linkedin.com/in/jesse-hall-85467945/)
+> | [DevPULSE](https://devpulse.app) | [RROFlow.ai](https://rroflow.ai)
+>
+> This fork is maintained as a dependency for the **DevPULSE** platform and the **RROFlow.ai**
+> (Reason Ready Object Flow) engine. It is part of the embedded-vector / cortex pipeline used
+> across [RROFlow.ai](https://rroflow.ai), [Effin.Ai](https://effin.ai),
+> [WiredFront](https://wiredfront.com), and related properties.
 
 Provides an implementation of today's most used tokenizers, with a focus on performance and
 versatility.
@@ -35,16 +45,16 @@ Performances can vary depending on hardware, but running the [~/bindings/python/
 ## Bindings
 
 We provide bindings to the following languages (more to come!):
-  - [Rust](https://github.com/huggingface/tokenizers/tree/main/tokenizers) (Original implementation)
-  - [Python](https://github.com/huggingface/tokenizers/tree/main/bindings/python)
-  - [Node.js](https://github.com/huggingface/tokenizers/tree/main/bindings/node)
+  - [Rust](https://github.com/EonsofStupid/tokenizers/tree/main/tokenizers) (Original implementation)
+  - [Python](https://github.com/EonsofStupid/tokenizers/tree/main/bindings/python)
+  - [Node.js](https://github.com/EonsofStupid/tokenizers/tree/main/bindings/node)
   - [Ruby](https://github.com/ankane/tokenizers-ruby) (Contributed by @ankane, external repo)
 
 ## Installation
 
 You can install from source using:
 ```bash
-pip install git+https://github.com/huggingface/tokenizers.git#subdirectory=bindings/python
+pip install git+https://github.com/EonsofStupid/tokenizers.git#subdirectory=bindings/python
 ```
 
 or install the released versions with

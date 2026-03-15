@@ -1,17 +1,18 @@
 [package]
-authors = ["Anthony MOI <m.anthony.moi@gmail.com>", "Nicolas Patry <patry.nicolas@protonmail.com>"]
+authors = ["Jesse Hall <jessay@angrygaming.org>", "Anthony MOI <m.anthony.moi@gmail.com>", "Nicolas Patry <patry.nicolas@protonmail.com>"]
 edition = "2018"
 name = "tokenizers"
 version = "0.22.3-dev.0"
-homepage = "https://github.com/huggingface/tokenizers"
-repository = "https://github.com/huggingface/tokenizers"
+homepage = "https://github.com/EonsofStupid/tokenizers"
+repository = "https://github.com/EonsofStupid/tokenizers"
 documentation = "https://docs.rs/tokenizers/"
 license = "Apache-2.0"
-keywords = ["tokenizer", "NLP", "huggingface", "BPE", "WordPiece"]
+keywords = ["tokenizer", "NLP", "DevPULSE", "BPE", "WordPiece"]
 readme = "./README.md"
 description = """
 Provides an implementation of today's most used tokenizers,
 with a focus on performances and versatility.
+Maintained as a dependency for the DevPULSE platform and RROFlow.ai.
 """
 exclude = [ "rust-toolchain", "target/*", "Cargo.lock", "benches/*.txt", "benches/*.json", "data/*" ]
 
