@@ -2,6 +2,7 @@
 name = "tokenizers"
 requires-python = ">=3.9"
 authors = [
+  { name = "Jesse Hall", email = "jessay@angrygaming.org" },
   { name = "Nicolas Patry", email = "patry.nicolas@protonmail.com" },
   { name = "Anthony Moi", email = "anthony@huggingface.co" },
 ]
@@ -26,8 +27,10 @@ dynamic = ["description", "license", "readme", "version"]
 dependencies = ["huggingface_hub>=0.16.4,<2.0"]
 
 [project.urls]
-Homepage = "https://github.com/huggingface/tokenizers"
-Source = "https://github.com/huggingface/tokenizers"
+Homepage = "https://github.com/EonsofStupid/tokenizers"
+Source = "https://github.com/EonsofStupid/tokenizers"
+DevPULSE = "https://devpulse.app"
+RROFlow = "https://rroflow.ai"
 
 
 [project.optional-dependencies]

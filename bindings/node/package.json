@@ -3,13 +3,16 @@
   "version": "0.15.3-dev0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huggingface/tokenizers.git"
+    "url": "git+https://github.com/EonsofStupid/tokenizers.git"
   },
   "bugs": {
-    "url": "https://github.com/huggingface/tokenizers/issues"
+    "url": "https://github.com/EonsofStupid/tokenizers/issues"
   },
-  "homepage": "https://github.com/huggingface/tokenizers/tree/master/bindings/node",
-  "author": "Anthony MOI <m.anthony.moi@gmail.com>",
+  "homepage": "https://github.com/EonsofStupid/tokenizers/tree/main/bindings/node",
+  "author": "Jesse Hall <jessay@angrygaming.org>",
+  "contributors": [
+    "Anthony MOI <m.anthony.moi@gmail.com>"
+  ],
   "license": "Apache-2.0",
   "description": "Provides an implementation of today's most used tokenizers, with a focus on performances and versatility.",
   "files": [
